@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px 100px 0 100px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    font-family: "Orbitron";
+    font-size: 20px;
+}
+
+.list > * {
+    width: 100%;
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    margin-top: 60px;
+}
+
+.square {
+    position: absolute;
+    width: 325px;
+    top: 395px;
+    left: 250px;
+    z-index: 0;
+}
+
+.person {
+    position: relative;
+    width: 400px;
+    z-index: 1;    
+}
+
+.hero-container {
+    flex: 0.75;
+
+}
+
+.hero-container-right {
+    flex: 1.25;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container-right > * {
+    height: 100%;
+}
+
+.hero-heading {
+    font-size: 60px;
+    font-family: "Orbitron" ;
+}
+
+.hero-description {
+    font-family: "Poppins";
+    color: rgb(102, 100, 100);
+    padding: 0 60px;
+}
+
+.hero-container-right button {
+    padding: 5px 20px;
+    font-family: "Orbitron";
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.button-email {
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+.button-join {
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+}
+
+.images {
+    position: relative;
+}
+
+.globe {
+    position: absolute;
+    left: 170px;
+    width: 60px;
+}
+
+.star {
+    position: relative;
+    left: 350px;
+    top: 30px;
+    width: 60px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.search-icon svg {
+    height: 30px;
+
+} 
+
+.button-group button {
+    background-color: #fff;
+    border-radius: 9px;
+    margin-left: 10px;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+
+.logo,
+.button-group {
+    flex: 1;
+    align-items: center;
+}
+
+.links {
+    flex: 2;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.icons > * {
+    margin-right: 10px;
+}
+
+.contact-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.star-social {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    height: 40px;
+}
